@@ -33,6 +33,6 @@ cd PUBG-Radar-Onekey/
 npm i
 npm i -g pino
 npm install -g forever
-forever start index.js sniff eth0 $ip | pino
+forever start index.js sniff ens4 $ip | pino
 
 echo "搭建完成"
